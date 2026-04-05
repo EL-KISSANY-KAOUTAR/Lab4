@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#303030">
+
+    <TextView
+        android:id="@+id/One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment One"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clique ici"
+        android:backgroundTint="#00BCD4"/>
+</LinearLayout>
